@@ -1,0 +1,593 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #FDC2A4;
+}
+html,body{
+    font-size: 100%!important;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+/*轮播图位置*/
+.connect-box{
+    width: 78%;
+    height: 100%;
+    margin: 0 auto;
+}
+.connect-box li{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    font-size: 1em;
+    color:#ffffff;
+    font-family: 微软雅黑;
+}
+.connect-box a{
+    color: #ffffff;
+}
+.nav-box{
+    width: 15.9%;
+    height: 100%;
+    color: #ffffff;
+    position: relative;
+    font-size: 0.8125em;
+    background-color: #252521;
+}
+.nav-box em{
+    display: inline-block;
+    vertical-align: middle;
+    height: 12px;
+    width: 1px;
+    opacity: 0.4;
+    background: #d8d8d8;
+    margin: 0 5px;
+    padding: 0;
+}
+.li-box2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #252221;
+}
+
+/*li1*/
+.li1:hover .nav-box1{
+    width: 530%;
+}
+.nav-box1{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -32px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+.nav-left-box1{
+    width:80% ;
+    height: 100%;
+    padding-left: 3%;
+    position: relative;
+    background-color: #FFFFFF;
+}
+.top-a{
+    width: 100%;
+    height: 10%;
+    padding-top: 0.5%;
+}
+.top-a a{
+    line-height: 5%;
+    text-align: center;
+    padding: 0.6% 2%;
+    margin-right: 2%;
+    font-size: 0.7em;
+    background-color: #FFaa00;
+}
+.top-a a:hover{
+    color: #ffffff;
+    background-color: #FF9900;
+}
+.ul1{
+    width: 80%;
+    height: auto;
+    margin-left: 9%;
+    margin-top: -4%;
+    font-size: 0.75em;
+    font-family: 微软雅黑;
+    border-bottom: 1px solid #f2f2f2;
+}
+.ul1 a{
+    padding-left: 1%;
+    color: #000000;
+}
+.nav-right-box1{
+    width: 20%;
+    height: 100%;
+    float: right;
+    position: relative;
+    margin-top: -48.2%;
+    background-color: #383838;
+}
+.nav-left-box1 label{
+    font-size: 0.7em;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: #000000;
+}
+
+/*li2*/
+.li2:hover .nav-box2{
+    width: 530%;
+}
+.nav-box2{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -64px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li3*/
+.li3:hover .nav-box3{
+    width: 530%;
+}
+.nav-box3{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -96px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li4*/
+.li4:hover .nav-box4{
+    width: 530%;
+}
+.nav-box4{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -128px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li5*/
+.li5:hover .nav-box5{
+    width: 530%;
+}
+.nav-box5{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -160px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li6*/
+.li6:hover .nav-box6{
+    width: 530%;
+}
+.nav-box6{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -192px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li7*/
+.li7:hover .nav-box7{
+    width: 530%;
+}
+.nav-box7{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -224px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li8*/
+.li8:hover .nav-box8{
+    width: 530%;
+}
+.nav-box8{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -256px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li9*/
+.li9:hover .nav-box9{
+    width: 530%;
+}
+.nav-box9{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -288px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li10*/
+.li10:hover .nav-box10{
+    width: 530%;
+}
+.nav-box10 {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -320px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li11*/
+.li11:hover .nav-box11{
+    width: 530%;
+}
+.nav-box11{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -352px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li12*/
+.li12:hover .nav-box12{
+    width: 530%;
+}
+.nav-box12{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -384px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li13*/
+.li13:hover .nav-box13{
+    width: 530%;
+}
+.nav-box13{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -416px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li14*/
+.li14:hover .nav-box14{
+    width: 530%;
+}
+.nav-box14{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -451px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*li15*/
+.li15:hover .nav-box15{
+    width: 530%;
+}
+.nav-box15{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    font-size: 1.3em;
+    margin-left: 100%;
+    margin-top: -483px;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 88888888;
+    border-bottom: 1px solid #000000;
+}
+
+/*轮播图*/
+.img-lunbo{
+    width:70%;
+    height:100%;
+    margin-top: -41%;
+    position: relative;
+    margin-left:15.9%;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+    position: relative;
+    overflow: hidden;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+.content img{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+}
+.content img:first-child{
+    opacity: 1;
+}
+.index{
+    position: relative;
+    width: 30%;
+    margin-top: 40%;
+    margin-left: 38%;
+    height: 40px;
+    z-index: 55;
+    list-style: none;
+}
+.index li{
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    border: 2px solid rgba(0 , 0 , 0 , 0.1);
+    background-color: rgba(255,255,255,0.6);
+}
+.left1{
+    cursor: pointer;
+    width: 30px;
+    height:80px;
+    background-color:rgba(0,0,0,0.4);
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    z-index: 55;
+    display: none;
+}
+.left1:hover{
+    background-color:rgba(0,0,0,0.6);
+}
+.right1{
+    cursor: pointer;
+    width: 30px;
+    height:80px;
+    background-color:rgba(0,0,0,0.4);
+    position: absolute;
+    right: 0px;
+    top: 150px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    z-index: 55;
+    display: none;
+}
+.right1:hover{
+    background-color:rgba(0,0,0,0.6);
+}
+.index .first{
+    background-color: #FFaa00;
+}
+
+/*右边浮窗*/
+.user-box{
+    width: 14.1%;
+    height: 100%;
+    float: right;
+    margin-top: -40.5%;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+/*用户信息界面*/
+.user{
+    width: 100%;
+    height: 32%;
+    text-align: center;
+    border-bottom: 1px solid #DDDDDD;
+}
+.cnm{
+    width: 100%;
+    height: 40%;
+    margin-top: 12%;
+}
+.tab{
+    cursor: pointer;
+    width: 100%;
+    height: 45%;
+    margin-left: -2.5%;
+    margin-top: 7%;
+}
+.tab a{
+    color: #FF6600;
+    font-size: 0.7em;
+    padding: 3px 11.5px;
+    border: 1px solid #FF6600;
+}
+
+/*消息推送界面*/
+.news-scroll{
+    width: 100%;
+    height: 35%;
+    overflow: hidden;
+    border-bottom: 1px solid #DDDDDD;
+}
+.connect-news{
+    width: 96%;
+    height: 150px;
+    margin: 3% 2%;
+    overflow: hidden;
+    font-size: 0.8em;
+    font-family: 微软雅黑;
+}
+.connect-news p{
+    width: 96%;
+    margin: 0 2%;
+    height: 40px;
+    padding: 5px 0;
+    color: #FF6600;
+}
+.connect-news a{
+    font-family: 微软雅黑;
+    color: #000000;
+}
+
+/*用户操作界面*/
+.control-box{
+    width: 100%;
+    height: 30%;
+}
+.tab1{
+    width: 100%;
+    height: 100%;
+}
+.tab1 a{
+    font-size: 0.75em;
+    color: #000000;
+}
+.tab1 a:hover{
+    font-size: 0.75em;
+    color: #FF9900;
+}
+.tab1 p{
+    margin-top: 20%;
+}
+
+/*浮动广告*/
+.adv-box{
+    width: 69%;
+    height: 25.5%;
+    margin-top: -11%;
+    margin-left: 16.4%;
+    position: relative;
+    z-index: 8;
+}
+.adv-box ul{
+    float: left;
+    position: absolute;
+}
+.dsjy{
+    width: 24.9%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.jwppr{
+    width: 24.9%;
+    height: 100%;
+    margin-left: 25%;
+    background-color: #ffffff;
+}
+.shjd{
+    width: 24.9%;
+    height: 100%;
+    margin-left: 50%;
+    background-color: #ffffff;
+}
+.xxls{
+    width: 24.9%;
+    height: 100%;
+    margin-left: 75%;
+    background-color: #ffffff;
+}
